@@ -10,7 +10,7 @@ THE VANCOUVER DATAFEST - MLOps using Databricks and managed MLflow with Zaid Had
 - Mainly using Python
 - This workshop will be focused on MLOps 
 
-![alt text]([https://lh4.googleusercontent.com/P2HFNWf79ECXQqi4g2S61Vt7jE_50Fj3r8E3xPqZBRXzfdEYxl7YWUjRB-VcmaDvzN9SK-zSrNX7w-BjjtALHmI=w16383](https://lh6.googleusercontent.com/83JuB8rVXUr3dDRtZkEkWVs9P4G5okz7tvvPyXUio_C5hvZG-4zXg8bQfWYqfsrAf9BBffFwWQJJuz_nXUwdutY=w16383))
+![alt text](https://lh5.googleusercontent.com/9xA8Jbg_ZjdcQUbjXBq0jvNctaz7TBOWx6Z-Qitu6CQLAtB2-Z3uLm4GJeQNPUJ-jNDCctbhvQ1GT5aXnFS7kVg=w16383)
 
 
 ### Managed MLflow setup on Databricks:
