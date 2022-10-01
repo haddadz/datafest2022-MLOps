@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; MLOps with Databricks and managed MLflow -  This worked on my workstations!</title>
+    <title>Automated Machine Learning Model Lifecycle &#8212; MLOps with Databricks -  This worked on my workstations!</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,8 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://github.com/haddadz/datafest2022-MLOps/08-AutomatedMLModelLifecycle.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="MLOps Maturity" href="09-MLOpsMaturity.html" />
+    <link rel="prev" title="What is MLOps?" href="07-WhatisMLOps.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -92,10 +95,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/Untitled.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">MLOps with Databricks and managed MLflow -  This worked on my workstations!</h1>
+      <h1 class="site-logo" id="site-title">MLOps with Databricks -  This worked on my workstations!</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -106,49 +109,64 @@ const thebe_selector_output = ".output, .cell_output"
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="01-MLOpswithDatabricks.html">
-                    01-MLOps with Databricks
+                <a class="reference internal" href="00-MLOpswithDatabricks.html">
+                    MLOps with Databricks
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="02-MLOps.html">
+  <a class="reference internal" href="01-Agenda.html">
+   Agenda
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Whatwedo.html">
+   What we do?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-DataScienceontheCloud.html">
+   Data Science on the Cloud
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-MLOps.html">
    MLOps
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="05-WhatisMLOps.html">
-   05-What is MLOps?
+  <a class="reference internal" href="07-WhatisMLOps.html">
+   What is MLOps?
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Automated Machine Learning Model Lifecycle
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="06-AutomatedMLModelLifecycle.html">
-   06-Automated Machine Learning Model Lifecycle
+  <a class="reference internal" href="09-MLOpsMaturity.html">
+   MLOps Maturity
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="09-WhyWhenMLOps.html">
-   09-Why and When to think about MLOps
+  <a class="reference internal" href="10-MLflowConcept.html">
+   MLflow
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="12-MLflowConcept.html">
-   12-MLflow Concept
+  <a class="reference internal" href="11-ManagedMLFLOW.html">
+   Managed MLflow
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="14-ManagedMLFLOW.html">
-   14-Managed MLflow
+  <a class="reference internal" href="12-QuickStart.html">
+   Quick Start
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="15-QuickStart.html">
-   15-Quick Start
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="MLflow%20quickstart%20part%201_%20training%20and%20logging.html">
+  <a class="reference internal" href="MLflow_quickstart_part1_traininglogging.html">
    MLflow quickstart: training and logging
   </a>
  </li>
@@ -158,8 +176,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="17-MLOpsWorkflow.html">
-   17-MLOps workflow on Databricks
+  <a class="reference internal" href="13-MLOpsWorkflow.html">
+   MLOps workflow on Databricks
   </a>
  </li>
 </ul>
@@ -235,7 +253,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/haddadz/jupyter-book-on-windows"
+        <a href="https://github.com/haddadz/datafest2022-MLOps"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -252,7 +270,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/haddadz/jupyter-book-on-windows/issues/new?title=Issue%20on%20page%20%2F16-E2Eexamples.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/haddadz/datafest2022-MLOps/issues/new?title=Issue%20on%20page%20%2F08-AutomatedMLModelLifecycle.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -280,7 +298,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/16-E2Eexamples.md"
+        <a href="_sources/08-AutomatedMLModelLifecycle.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -338,7 +356,19 @@ title="Print to PDF"
         <i class="fas fa-list"></i> Contents
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="simple visible nav section-nav flex-column">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-efficient-way-of-working-for-building-deploying-managing-ml-models-critical-for-ensuring-the-integirty-of-business-processes">
+   An efficient way of working for building, deploying &amp; managing ML models critical for ensuring the integirty of business processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bringing-mlops-thinking-to-ml-model-development-enables-the-creation-of-scalable-models-makes-the-deployment-cycles-faster-and-more-reliable-and-reduces-manual-effort-and-error">
+     Bringing MLOps thinking to ML model development enables the creation of scalable models, makes the deployment cycles faster and more reliable and reduces manual effort and error
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
     </nav>
@@ -348,7 +378,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1><no title></h1>
+                <h1>Automated Machine Learning Model Lifecycle</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -357,7 +387,19 @@ title="Print to PDF"
                             <h2> Contents </h2>
                         </div>
                         <nav aria-label="Page">
-                            <ul class="simple visible nav section-nav flex-column">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-efficient-way-of-working-for-building-deploying-managing-ml-models-critical-for-ensuring-the-integirty-of-business-processes">
+   An efficient way of working for building, deploying &amp; managing ML models critical for ensuring the integirty of business processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bringing-mlops-thinking-to-ml-model-development-enables-the-creation-of-scalable-models-makes-the-deployment-cycles-faster-and-more-reliable-and-reduces-manual-effort-and-error">
+     Bringing MLOps thinking to ML model development enables the creation of scalable models, makes the deployment cycles faster and more reliable and reduces manual effort and error
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
                         </nav>
@@ -368,7 +410,17 @@ title="Print to PDF"
                 
               <div>
                 
-  
+  <section class="tex2jax_ignore mathjax_ignore" id="automated-machine-learning-model-lifecycle">
+<h1>Automated Machine Learning Model Lifecycle<a class="headerlink" href="#automated-machine-learning-model-lifecycle" title="Permalink to this headline">#</a></h1>
+<section id="an-efficient-way-of-working-for-building-deploying-managing-ml-models-critical-for-ensuring-the-integirty-of-business-processes">
+<h2>An efficient way of working for building, deploying &amp; managing ML models critical for ensuring the integirty of business processes<a class="headerlink" href="#an-efficient-way-of-working-for-building-deploying-managing-ml-models-critical-for-ensuring-the-integirty-of-business-processes" title="Permalink to this headline">#</a></h2>
+<p><img alt="" src="_images/Clipboard_2022-09-22-19-19-24.png" /></p>
+<section id="bringing-mlops-thinking-to-ml-model-development-enables-the-creation-of-scalable-models-makes-the-deployment-cycles-faster-and-more-reliable-and-reduces-manual-effort-and-error">
+<h3>Bringing MLOps thinking to ML model development enables the creation of scalable models, makes the deployment cycles faster and more reliable and reduces manual effort and error<a class="headerlink" href="#bringing-mlops-thinking-to-ml-model-development-enables-the-creation-of-scalable-models-makes-the-deployment-cycles-faster-and-more-reliable-and-reduces-manual-effort-and-error" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+</section>
+
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
@@ -396,6 +448,20 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="07-WhatisMLOps.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">What is MLOps?</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="09-MLOpsMaturity.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">MLOps Maturity</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>

@@ -1,4 +1,4 @@
-# 14-Managed MLflow
+# Managed MLflow
 
 ## Managing the complete machine learning lifecycle
 
@@ -38,18 +38,18 @@ Managed MLflow is built on top of MLflow, an open source platform developed by D
 
 
 ### MLflow Tracking
-- MLFLOW TRACKING: *Automatically* log parameters, code versions, metrics, and artifacts for each run using Python, REST, R API, and Java API
+- **MLFLOW TRACKING**: **Automatically** log parameters, code versions, metrics, and artifacts for each run using Python, REST, R API, and Java API
 
-- MLFLOW TRACKING SERVER: Get started quickly with a *built-in* tracking server to log all runs and experiments in one place. No configuration needed on Databricks.
+- **MLFLOW TRACKING SERVER**: Get started quickly with a **built-in** tracking server to log all runs and experiments in one place. No configuration needed on Databricks.
 
-- EXPERIMENT MANAGEMENT: Create, secure, organize, search, and visualize experiments from within the Workspace with access control and search queries.
+- **EXPERIMENT MANAGEMENT**: Create, secure, organize, search, and visualize experiments from within the Workspace with access control and search queries.
 
-- MLFLOW RUN SIDEBAR: Automatically track runs from within notebooks and capture a snapshot of your notebook for each run, so that you can always go back to previous versions of your code.
+- **MLFLOW RUN SIDEBAR**: Automatically track runs from within notebooks and capture a snapshot of your notebook for each run, so that you can always go back to previous versions of your code.
 LOGGING DATA WITH RUNS: Log parameters, data sets, metrics, artifacts and more as runs to local files, to a SQLAlchemy compatible database, or remotely to a tracking server.
 
-- DELTA LAKE INTEGRATION: Track large-scale data sets that fed your models with Delta Lake snapshots.
+- **DELTA LAKE INTEGRATION**: Track large-scale data sets that fed your models with Delta Lake snapshots.
 
-- ARTIFACT STORE: Store large files such as S3 buckets, shared NFS file system, and models in Amazon S3, Azure Blob Storage, Google Cloud Storage, SFTP server, NFS, and local file paths.
+- **ARTIFACT STORE**: Store large files such as S3 buckets, shared NFS file system, and models in Amazon S3, Azure Blob Storage, Google Cloud Storage, SFTP server, NFS, and local file paths.
 
 
 
@@ -74,10 +74,10 @@ LOGGING DATA WITH RUNS: Log parameters, data sets, metrics, artifacts and more a
 
 
 ### MLflow Models
-- MLFLOW MODELS: A standard format for packaging machine learning models that can be used in a variety of downstream tools—for example, real-time serving through a REST API or batch inference on Apache Spark.
+- MLFLOW MODELS: A **standard format** for packaging machine learning models that can be used in a variety of downstream tools—for example, real-time serving through a REST API or batch inference on Apache Spark.
 
-- MODEL CUSTOMIZATION: Use Custom Python Models and Custom Flavors for models from an ML library that is not explicitly supported by MLflow’s built-in flavors.
+- MODEL CUSTOMIZATION: Use **Custom Python Models** and **Custom Flavors** for models from an ML library that is not explicitly supported by MLflow’s built-in flavors.
 
-- BUILT-IN MODEL FLAVORS: MLflow provides several standard flavors that might be useful in your applications, like Python and R functions, H20, Keras, MLeap, PyTorch, Scikit-learn, Spark MLlib, TensorFlow, and ONNX.
+- BUILT-IN MODEL FLAVORS: MLflow provides several **standard** flavors that might be useful in your applications, like Python and R functions, H20, Keras, MLeap, PyTorch, Scikit-learn, Spark MLlib, TensorFlow, and ONNX.
 
-- BUILT-IN DEPLOYMENT TOOLS: Quickly deploy on Databricks via Apache Spark UDF for, a local machine, or several other production environments such as Microsoft Azure ML, Amazon SageMaker, and building Docker Images for Deployment.
+- BUILT-IN DEPLOYMENT TOOLS: **Quickly** deploy on Databricks via Apache Spark UDF for, a local machine, or several other production environments such as Microsoft Azure ML, Amazon SageMaker, and building Docker Images for Deployment.

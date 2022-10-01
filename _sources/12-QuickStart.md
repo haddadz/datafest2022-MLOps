@@ -1,20 +1,20 @@
-# 15-Quick Start
+# Quick Start
 
 
 
 - MLflow is an open source platform for managing the end-to-end machine learning lifecycle. 
-- 3 primary components: Tracking, Models, and Projects. 
+- 3 primary components: **Tracking**, **Models**, and **Projects**. 
 - The MLflow Tracking component lets you log and query machine model training sessions (runs) using:
     - `Java`
     - `Python`
     - `R`
     - `REST APIs`
-- An MLflow run is a collection of parameters, metrics, tags, and artifacts associated with a machine learning model training process.
+- An MLflow **run** is a collection of **parameters**, **metrics**, **tags**, and **artifacts** associated with a machine learning model training process.
 
-- Experiments are the primary unit of organization in MLflow; all MLflow runs belong to an experiment. - Each experiment lets you visualize, search, and compare runs, as well as download run artifacts or metadata for analysis in other tools.
-- Experiments are maintained in a Databricks hosted MLflow tracking server.
-
-Experiments are located in the Navigate the workspace file tree. You manage experiments using the same tools you use to manage other workspace objects such as folders, notebooks, and libraries.
+- **Experiments** are the primary unit of organization in MLflow; all MLflow runs belong to an experiment. 
+    - Each experiment lets you visualize, search, and compare runs, as well as download run artifacts or metadata for analysis in other tools.
+    - Experiments are maintained in a Databricks hosted MLflow tracking server.
+    - Experiments are located in the Navigate the workspace file tree. You manage experiments using the same tools you use to manage other workspace objects such as folders, notebooks, and libraries.
 
 ## Quick Start with Python
 

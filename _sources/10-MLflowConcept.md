@@ -1,4 +1,8 @@
-# 12-MLflow Concept
+# MLflow
+
+An open source platform for the machine learning lifecycle
+
+# MLflow Concept
 
 MLflow is organized into four components: 
 - Tracking
@@ -13,25 +17,26 @@ Each of these components can be used on their own.
 ## The Machine Learning Workflow
 
 ML experiments with:
-- datasets
-- data prep steps
-- algorithms
- to build a model that maximizes some target metric. 
- 
- Once built:
- - model deploy to a production system 
- - monitor performance 
- - continuously retrain it on new data & compare with alternative models
+- **datasets**
+- **data prep steps**
+- **algorithms**    
+to build a model that maximizes some target metric. 
+
+
+Once built:
+ - model **deploy** to a production system 
+ - **monitor** performance 
+ - continuously **retrain** it on new data & compare with alternative models
 
 Challengenges may arise:
 
-- Difficult to keep track of experiments. Files on your lapto or notebook, how do you tell which data, code and parameters went into getting a particular result? Often times messy excels or tables tracked manually. 
+- **Difficult** to keep **track** of experiments. Files on your lapto or notebook, how do you tell which data, code and parameters went into getting a particular result? Often times messy excels or tables tracked manually. 
 
-- Difficult to reproduce code. Challenging if another data scientist want to use your code, or ifrun the same code at scale on another platform/cloud.
+- **Difficult** to **reproduce** code. Challenging if another data scientist want to use your code, or ifrun the same code at scale on another platform/cloud.
 
-- No standard way to package & deploy. 
+- No **standard** way to package & deploy. 
 
-- No central store to manage models (their versions and stage transitions). Many models are created and in absence of a central place to collaborate and manage model lifecycle, data science teams face challenges in how they manage models stages: from development to staging, and finally, to archiving or production, with respective versions, annotations, and history.
+- No **central store** to manage models (their versions and stage transitions). Many models are created and in absence of a central place to collaborate and manage model lifecycle, data science teams face challenges in how they manage models stages: from development to staging, and finally, to archiving or production, with respective versions, annotations, and history.    
 
 Moreover, what if you want to try multiple ML libraries? Things can get messy. MLflow lets you train, reuse, and deploy models with any library and package them into reproducible steps that other data scientists can use as a “black box,” without even having to know which library you are using.
 
@@ -91,7 +96,7 @@ mlflow.pytorch.load_model("models:/mymodel/1")
 
 - MLflow supports launching multiple runs in **parallel** with different parameters, for example, for hyperparameter tuning. You can simply use the **Projects API** to start multiple runs and the Tracking API to track them.
 
-- **MLflow Projects** can take input from, and write output to, *distributed* storage systems such as AWS S3 and DBFS. MLflow can automatically download such files locally for projects that can only run on local files, or give the project a distributed storage URI if it supports that. This means that you can write projects that build large datasets, such as featurizing a **100 TB** file.
+- **MLflow Projects** can take input from, and write output to, **distributed** storage systems such as AWS S3 and DBFS. MLflow can automatically download such files locally for projects that can only run on local files, or give the project a distributed storage URI if it supports that. This means that you can write projects that build large datasets, such as featurizing a **100 TB** file.
 
 - **MLflow Model Registry** offers large organizations a **central hub** to collaboratively manage a complete model lifecycle. Many data science teams within an organization develop hundreds of models, each model with its experiments, runs, versions, artifacts, and stage transitions. A central registry facilitates model discovery and model’s purpose across multiple teams in a large organization.
 

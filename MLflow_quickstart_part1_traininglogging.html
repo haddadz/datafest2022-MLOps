@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>MLflow quickstart: training and logging &#8212; MLOps with Databricks and managed MLflow -  This worked on my workstations!</title>
+    <title>MLflow quickstart: training and logging &#8212; MLOps with Databricks -  This worked on my workstations!</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,10 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://github.com/haddadz/datafest2022-MLOps/MLflow_quickstart_part1_traininglogging.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Training machine learning models on tabular data: an end-to-end example" href="ML_End-to-End_Example.html" />
-    <link rel="prev" title="15-Quick Start" href="15-QuickStart.html" />
+    <link rel="prev" title="Quick Start" href="12-QuickStart.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -94,10 +95,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/Untitled.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">MLOps with Databricks and managed MLflow -  This worked on my workstations!</h1>
+      <h1 class="site-logo" id="site-title">MLOps with Databricks -  This worked on my workstations!</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -108,45 +109,60 @@ const thebe_selector_output = ".output, .cell_output"
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="01-MLOpswithDatabricks.html">
-                    01-MLOps with Databricks
+                <a class="reference internal" href="00-MLOpswithDatabricks.html">
+                    MLOps with Databricks
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="02-MLOps.html">
+  <a class="reference internal" href="01-Agenda.html">
+   Agenda
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Whatwedo.html">
+   What we do?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-DataScienceontheCloud.html">
+   Data Science on the Cloud
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-MLOps.html">
    MLOps
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="05-WhatisMLOps.html">
-   05-What is MLOps?
+  <a class="reference internal" href="07-WhatisMLOps.html">
+   What is MLOps?
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="06-AutomatedMLModelLifecycle.html">
-   06-Automated Machine Learning Model Lifecycle
+  <a class="reference internal" href="08-AutomatedMLModelLifecycle.html">
+   Automated Machine Learning Model Lifecycle
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="09-WhyWhenMLOps.html">
-   09-Why and When to think about MLOps
+  <a class="reference internal" href="09-MLOpsMaturity.html">
+   MLOps Maturity
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="12-MLflowConcept.html">
-   12-MLflow Concept
+  <a class="reference internal" href="10-MLflowConcept.html">
+   MLflow
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="14-ManagedMLFLOW.html">
-   14-Managed MLflow
+  <a class="reference internal" href="11-ManagedMLFLOW.html">
+   Managed MLflow
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="15-QuickStart.html">
-   15-Quick Start
+  <a class="reference internal" href="12-QuickStart.html">
+   Quick Start
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -160,8 +176,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="17-MLOpsWorkflow.html">
-   17-MLOps workflow on Databricks
+  <a class="reference internal" href="13-MLOpsWorkflow.html">
+   MLOps workflow on Databricks
   </a>
  </li>
 </ul>
@@ -237,7 +253,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/haddadz/jupyter-book-on-windows"
+        <a href="https://github.com/haddadz/datafest2022-MLOps"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -254,7 +270,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/haddadz/jupyter-book-on-windows/issues/new?title=Issue%20on%20page%20%2FMLflow quickstart part 1_ training and logging.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/haddadz/datafest2022-MLOps/issues/new?title=Issue%20on%20page%20%2FMLflow_quickstart_part1_traininglogging.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -282,7 +298,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/MLflow quickstart part 1_ training and logging.ipynb"
+        <a href="_sources/MLflow_quickstart_part1_traininglogging.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -468,7 +484,7 @@ title="Print to PDF"
 <h2>Import required libraries and load dataset<a class="headerlink" href="#import-required-libraries-and-load-dataset" title="Permalink to this headline">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import required libraries</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import required libraries</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="kn">import</span> <span class="nn">sys</span>
@@ -501,19 +517,21 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [1],</span> in <span class="ni">&lt;cell line: 9&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">cycle</span>
-<span class="ne">----&gt; </span><span class="mi">9</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">mean_absolute_error</span><span class="p">,</span> <span class="n">r2_score</span>
-<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
-</pre></div>
-</div>
-</div>
+<div class="output text_html"><style scoped>
+  .ansiout {
+    display: block;
+    unicode-bidi: embed;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-family: "Source Code Pro", "Menlo", monospace;;
+    font-size: 13px;
+    color: #555;
+    margin-left: 4px;
+    line-height: 19px;
+  }
+</style>
+<div class="ansiout"></div></div></div>
 </div>
 </section>
 <section id="create-function-to-plot-elasticnet-descent-path">
@@ -526,7 +544,7 @@ title="Print to PDF"
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot_enet_descent_path</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="p">):</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot_enet_descent_path</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="p">):</span>
     <span class="c1"># Compute paths</span>
     <span class="n">eps</span> <span class="o">=</span> <span class="mf">5e-3</span>  <span class="c1"># the smaller it is the longer is the path</span>
 
@@ -596,7 +614,7 @@ title="Print to PDF"
 <p><strong>Tip:</strong> Databricks recommends using <code class="docutils literal notranslate"><span class="pre">with</span> <span class="pre">mlflow.start_run:</span></code> to create a new MLflow run. The <code class="docutils literal notranslate"><span class="pre">with</span></code> context closes the MLflow run regardless of whether the code completes successfully or exits with an error, and you do not have to call <code class="docutils literal notranslate"><span class="pre">mlflow.end_run</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># train_diabetes</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># train_diabetes</span>
 <span class="c1">#   Uses the sklearn Diabetes dataset to predict diabetes progression using ElasticNet</span>
 <span class="c1">#       The predicted &quot;progression&quot; column is a quantitative measure of disease progression one year after baseline</span>
 <span class="c1">#       http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html</span>
@@ -687,7 +705,7 @@ title="Print to PDF"
 <p>Call <code class="docutils literal notranslate"><span class="pre">train_diabetes</span></code> with different parameters. You can visualize all these runs in the MLflow experiment.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">fs</span> rm -r dbfs:/mlflow/test_diabetes
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">fs</span> <span class="n">rm</span> <span class="o">-</span><span class="n">r</span> <span class="n">dbfs</span><span class="p">:</span><span class="o">/</span><span class="n">mlflow</span><span class="o">/</span><span class="n">test_diabetes</span>
 </pre></div>
 </div>
 </div>
@@ -711,7 +729,7 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 0.01</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 0.01</span>
 <span class="n">train_diabetes</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -740,17 +758,17 @@ Computing regularization path using ElasticNet.
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/MLflow quickstart part 1_ training and logging_10_0.png" src="_images/MLflow quickstart part 1_ training and logging_10_0.png" />
+<img alt="_images/MLflow_quickstart_part1_traininglogging_10_0.png" src="_images/MLflow_quickstart_part1_traininglogging_10_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 0.75</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 0.75</span>
 <span class="n">train_diabetes</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -779,17 +797,17 @@ Computing regularization path using ElasticNet.
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/MLflow quickstart part 1_ training and logging_12_0.png" src="_images/MLflow quickstart part 1_ training and logging_12_0.png" />
+<img alt="_images/MLflow_quickstart_part1_traininglogging_12_0.png" src="_images/MLflow_quickstart_part1_traininglogging_12_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, .5</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, .5</span>
 <span class="n">train_diabetes</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">.5</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -818,17 +836,17 @@ Computing regularization path using ElasticNet.
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/MLflow quickstart part 1_ training and logging_14_0.png" src="_images/MLflow quickstart part 1_ training and logging_14_0.png" />
+<img alt="_images/MLflow_quickstart_part1_traininglogging_14_0.png" src="_images/MLflow_quickstart_part1_traininglogging_14_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 1</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># alpha and l1_ratio values of 0.01, 1</span>
 <span class="n">train_diabetes</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -857,12 +875,12 @@ Computing regularization path using ElasticNet.
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/MLflow quickstart part 1_ training and logging_16_0.png" src="_images/MLflow quickstart part 1_ training and logging_16_0.png" />
+<img alt="_images/MLflow_quickstart_part1_traininglogging_16_0.png" src="_images/MLflow_quickstart_part1_traininglogging_16_0.png" />
 </div>
 </div>
 </section>
@@ -902,11 +920,11 @@ Computing regularization path using ElasticNet.
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="15-QuickStart.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="12-QuickStart.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">15-Quick Start</p>
+            <p class="prev-next-title">Quick Start</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="ML_End-to-End_Example.html" title="next page">

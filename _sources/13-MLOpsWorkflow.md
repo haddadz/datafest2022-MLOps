@@ -1,4 +1,4 @@
-# 17-MLOps workflow on Databricks
+# MLOps workflow on Databricks
 
 
 
@@ -33,8 +33,4 @@ Access control and versioning are key components of any software operations proc
 
 ### Deploy code, not models
  Databricks recommends that during the ML development process, you promote code, rather than models, from one environment to the next. Moving project assets this way ensures that all code in the ML development process goes through the same code review and integration testing processes. It also ensures that the production version of the model is trained on production code. 
-
-
-
-
 

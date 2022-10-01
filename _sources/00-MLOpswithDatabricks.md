@@ -5,9 +5,7 @@ created: '2022-02-12T08:08:37.438Z'
 modified: '2022-09-23T02:19:46.197Z'
 ---
 
-# 01-MLOps with Databricks
-
-## MLOps with Databricks and managed MLflow
+# MLOps with Databricks
 
 ### This worked on my workstations!
 
@@ -16,3 +14,4 @@ modified: '2022-09-23T02:19:46.197Z'
 
 ### Zaid Haddad
 
+Github link https://github.com/haddadz/datafest2022-MLOps
