@@ -1,0 +1,39 @@
+
+---
+title: "Quick Start R"
+output:
+  html_document:
+    toc: true
+---
+
+
+```{r}
+
+#install mlflow pkg
+install.packages("mlflow")
+
+#import the mlflow library
+library(mlflow)
+# "install" mlflow in R session
+install_mlflow()
+
+# define parameters
+my_int <- mlflow_param("my_int", 1, "integer")
+my_num <- mlflow_param("my_num", 1.0, "numeric")
+
+# log parameters
+mlflow_log_param("param_int", my_int)
+mlflow_log_param("param_num", my_num)
+
+# read parameters
+column <- mlflow_log_param("column", 1)
+
+# log total rows
+mlflow_log_metric("rows", nrow(iris))
+```
+
+
+```{r}
+
+```
+
