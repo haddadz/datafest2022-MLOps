@@ -14,8 +14,6 @@ This is an advanced Machine Learning workshop focused on MLOps using Databricks 
 
 - GitHub: https://haddadz.github.io/datafest2022-MLOps/
 
-![alt text](https://lh3.googleusercontent.com/5pZ_o8ASm5JrNc2UJoq7JeTuu1aXXuZAWHIugqOmHP71iGxcePVoAhvra5V1c4qv6uIlZWQm1ocYSH4CMZAwMEY=w16383)
-
 
 
 
